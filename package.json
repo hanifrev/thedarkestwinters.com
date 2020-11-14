@@ -17,8 +17,10 @@
   "author": "Faishal Hanif",
   "license": "MIT",
   "dependencies": {
+    "materialize-css": "^1.0.0-rc.2",
     "react": "^17.0.0",
-    "react-dom": "^17.0.0"
+    "react-dom": "^17.0.0",
+    "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.11.6",
@@ -34,9 +36,11 @@
     "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-react": "^7.21.4",
     "eslint-plugin-react-hooks": "^4.1.2",
+    "file-loader": "^6.2.0",
     "html-webpack-plugin": "^4.5.0",
     "prettier": "^2.1.2",
     "style-loader": "^1.3.0",
+    "url-loader": "^4.1.1",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0",

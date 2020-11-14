@@ -39,6 +39,25 @@ module.exports = {
           }
         ]
       }
+      // {
+      //   test: /\.(jpe?g|jpg|gif|bmp|mp3|mp4|ogg|wav|eot|ttf|woff|woff2|png|svg)$/i,
+      //   use: [
+      //     {
+      //       loader: 'url-loader',
+      //       options: {
+      //         limit: 50000
+      //       }
+      //     }
+      //   ]
+      // }
+      // {
+      //   test: /\.(png|jpe?g|gif)$/i,
+      //   use: [
+      //     {
+      //       loader: 'file-loader'
+      //     }
+      //   ]
+      // }
     ]
   },
   plugins: [
