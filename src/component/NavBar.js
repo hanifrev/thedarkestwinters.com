@@ -8,7 +8,7 @@ const NavBar = () => {
       <nav className="#37474f blue-grey darken-3">
         <div className="nav-wrapper">
           <Link to={'/'} className="brand-logo left">
-            THE DARKEST WINTER
+            THE DARKEST WINTERS
           </Link>
           <ul className="right">
             <li>
@@ -18,7 +18,9 @@ const NavBar = () => {
               <Link to={'/About'}>ABOUT</Link>
             </li>
             <li>
-              <Link to={'/'}>MUSIC</Link>
+              <Link to={'//thedarkestwinters.bandcamp.com/'} target="_blank">
+                MUSIC
+              </Link>
             </li>
             <li>
               <Link to={'/'}>GALLERY</Link>

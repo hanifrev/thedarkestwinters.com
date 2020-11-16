@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const MainContent = () => {
   return (
@@ -12,7 +12,7 @@ const MainContent = () => {
           Sonnenstrahlen Suchen den Weg zu dir
         </p>
         <div className="col s12 m6">
-          <p className="col s12 m12 offset-m2">
+          <p className="col s12 m10 offset-m2">
             Ich weiß nicht, warum ich das tue. Es ist fast ein innerer Zwang, der mich
             dazu treibt. Vielleicht führte ich wenn ich anders könnte, würde ich langsam
             aufhören ein Mensch zu sein, und würde bald schmutzig und stinkend umhier
@@ -20,7 +20,7 @@ const MainContent = () => {
           </p>
         </div>
         <div className="col s12 m6">
-          <p className="col s12 m12 offset-m1">
+          <p className="col s12 m10 offset-m1">
             Nicht, dass ich führtete ein Tier zu werden. Das wäre nicht sehr schlimm. Aber
             ein Mensch kann niemals ein Tier werden. Er stützt ein Tier vor über in einem
             abkommt.
@@ -37,6 +37,7 @@ const MainContent = () => {
           wie Tausend Sonnenstrahlen Suchen den Weg zu dir
         </p>
       </div>
+      {/* THE NEXT TASK IS MAKE USESTATE OR FUNCTION SO WE CAN CALL A COMPONENT FROM EXTERNAL JS FILE */}
     </div>
   )
 }
