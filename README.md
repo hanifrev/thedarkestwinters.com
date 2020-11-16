@@ -1,22 +1,3 @@
-## Hanifrev's React Boilerplate
+## The Darkest Winters
 
-Basicaly this is my own ReactJS boilerplate
-(and it will updated later depends on my needs)
-
-I'm using Webpack for bundler, Babel for transpiler
-
-You can use this boilerplate if you want
-
-## Usage
-
-```
-$ git clone https://github.com/hanifrev/react-boilerplate.git
-$ cd react-boilerplate
-$ rm -rf .git
-```
-
-## Install
-
-```
-npm install
-```
+The Darkest Winters a is black metal band with atmospheric / post influences, based in Kediri, Indonesia.
