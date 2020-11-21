@@ -1,22 +1,19 @@
-import React, { useState } from 'react'
+import React from 'react'
+import News1 from './news/news1'
+import News2 from './news/news2'
 
 const MainContent = () => {
   return (
     <div className="row">
       <div className="col s12 m8">
         <p className="col s12 m11 offset-m1">
-          MAIN EXAMPLE Seit Tagen Atme ich nichts als Staub Die rostig alte Sonne wandert
-          Wie auf einem dünnen Seil Entlang am Horizont. Sticht in mein Auge und kehrt in
-          mich ein Tief innen wohnt die Wahrheit Der Anfang, der Weg, das Ende. Das Licht
-          bahnt sich den Weg durch meine Adern Ich kann es fühlen wie Tausend
-          Sonnenstrahlen Suchen den Weg zu dir
+          <News1 />
+          <hr></hr>
         </p>
         <div className="col s12 m6">
           <p className="col s12 m10 offset-m2">
-            Ich weiß nicht, warum ich das tue. Es ist fast ein innerer Zwang, der mich
-            dazu treibt. Vielleicht führte ich wenn ich anders könnte, würde ich langsam
-            aufhören ein Mensch zu sein, und würde bald schmutzig und stinkend umhier
-            kriechen und unverständliche Laute aufstoßen.
+            <News2 />
+            <hr></hr>
           </p>
         </div>
         <div className="col s12 m6">
@@ -24,6 +21,7 @@ const MainContent = () => {
             Nicht, dass ich führtete ein Tier zu werden. Das wäre nicht sehr schlimm. Aber
             ein Mensch kann niemals ein Tier werden. Er stützt ein Tier vor über in einem
             abkommt.
+            <hr></hr>
           </p>
         </div>
       </div>

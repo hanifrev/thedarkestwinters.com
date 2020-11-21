@@ -18,6 +18,18 @@ h1 {
   text-align: center;
 }
 
+.news-title {
+  text-align: center;
+  display: block;
+}
+
+.news1-img {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid #ffffff;
+}
+
 .page-footer {
   padding-top: 0px !important;
   opacity: 70%;

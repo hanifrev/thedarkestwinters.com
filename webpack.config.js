@@ -38,26 +38,22 @@ module.exports = {
             loader: 'css-loader'
           }
         ]
-      }
+      },
       // {
-      //   test: /\.(jpe?g|jpg|gif|bmp|mp3|mp4|ogg|wav|eot|ttf|woff|woff2|png|svg)$/i,
+      //   test: /\.(png|jpg|gif)$/i,
       //   use: [
       //     {
       //       loader: 'url-loader',
       //       options: {
-      //         limit: 50000
+      //         limit: 8192
       //       }
       //     }
       //   ]
-      // }
-      // {
-      //   test: /\.(png|jpe?g|gif)$/i,
-      //   use: [
-      //     {
-      //       loader: 'file-loader'
-      //     }
-      //   ]
-      // }
+      // },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif|tiff)$/,
+        use: ['file-loader']
+      }
     ]
   },
   plugins: [
