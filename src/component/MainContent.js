@@ -1,6 +1,8 @@
 import React from 'react'
+import SideBar from './SideBar'
 import News1 from './news/news1'
 import News2 from './news/news2'
+import News3 from './news/news3'
 
 const MainContent = () => {
   return (
@@ -18,22 +20,14 @@ const MainContent = () => {
         </div>
         <div className="col s12 m6">
           <p className="col s12 m10 offset-m1">
-            Nicht, dass ich führtete ein Tier zu werden. Das wäre nicht sehr schlimm. Aber
-            ein Mensch kann niemals ein Tier werden. Er stützt ein Tier vor über in einem
-            abkommt.
+            <News3 />
             <hr></hr>
           </p>
         </div>
       </div>
       <div className="col s12 m3">
-        <p>
-          SIDE EXAMPLE Sticht in mein Auge und kehrt in mich ein Tief innen wohnt die
-          Wahrheit Der Anfang, der Weg, das Ende Seit Tagen Atme ich nichts als Staub Die
-          rostig alte Sonne wandert Wie auf einem dünnen Seil Entlang am Horizont. Sticht
-          in mein Auge und kehrt in mich ein Tief innen wohnt die Wahrheit Der Anfang, der
-          Weg, das Ende. Das Licht bahnt sich den Weg durch meine Adern Ich kann es fühlen
-          wie Tausend Sonnenstrahlen Suchen den Weg zu dir
-        </p>
+        <SideBar />
+        <hr></hr>
       </div>
       {/* THE NEXT TASK IS MAKE USESTATE OR FUNCTION SO WE CAN CALL A COMPONENT FROM EXTERNAL JS FILE */}
     </div>

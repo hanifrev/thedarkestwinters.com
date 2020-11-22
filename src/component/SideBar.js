@@ -1,25 +1,20 @@
 import React from 'react'
-// import { Link } from 'react-router-dom'
+import BandcampPlayer from 'react-bandcamp'
 
 const SideBar = () => {
   return (
-    <div className="row">
-      <div className="col s12 m3 offset-m8">
-        <p>
-          SIDE EXAMPLE Sticht in mein Auge und kehrt in mich ein Tief innen wohnt die
-          Wahrheit Der Anfang, der Weg, das Ende Seit Tagen Atme ich nichts als Staub Die
-          rostig alte Sonne wandert Wie auf einem dünnen Seil Entlang am Horizont. Sticht
-          in mein Auge und kehrt in mich ein Tief innen wohnt die Wahrheit Der Anfang, der
-          Weg, das Ende. Das Licht bahnt sich den Weg durch meine Adern Ich kann es fühlen
-          wie Tausend Sonnenstrahlen Suchen den Weg zu dir<br></br>+Sticht in mein Auge
-          und kehrt in mich ein Tief innen wohnt die Wahrheit Der Anfang, der Weg, das
-          Ende Seit Tagen Atme ich nichts als Staub Die rostig alte Sonne wandert Wie auf
-          einem dünnen Seil Entlang am Horizont. Sticht in mein Auge und kehrt in mich ein
-          Tief innen wohnt die Wahrheit Der Anfang, der Weg, das Ende. Das Licht bahnt
-          sich den Weg durch meine Adern Ich kann es fühlen wie Tausend Sonnenstrahlen
-          Suchen den Weg zu dir
-        </p>
-      </div>
+    <div>
+      <h6 className="bandcamp-title">STREAM HERE</h6>
+
+      <p className="">
+        <BandcampPlayer
+          className="bandcamp-iframe"
+          album="1361300567"
+          size="large"
+          width="100%"
+          height="570px"
+        />
+      </p>
     </div>
   )
 }

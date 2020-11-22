@@ -30,6 +30,13 @@ h1 {
   border: 1px solid #ffffff;
 }
 
+.bandcamp-title {
+  text-align: center;
+}
+.embed-responsive-item {
+  padding: 0 5%;
+}
+
 .page-footer {
   padding-top: 0px !important;
   opacity: 70%;
