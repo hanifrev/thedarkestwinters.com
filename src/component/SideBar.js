@@ -1,5 +1,6 @@
 import React from 'react'
 import BandcampPlayer from 'react-bandcamp'
+import SocMed from './SocMed'
 
 const SideBar = () => {
   return (
@@ -15,6 +16,9 @@ const SideBar = () => {
           height="570px"
         />
       </p>
+
+      <hr></hr>
+      <SocMed />
     </div>
   )
 }

@@ -4,6 +4,7 @@ import News1 from './news/news1'
 import News2 from './news/news2'
 import News3 from './news/news3'
 import News4 from './news/news4'
+import News5 from './news/news5'
 
 const MainContent = () => {
   return (
@@ -14,18 +15,23 @@ const MainContent = () => {
           <hr></hr>
         </p>
         <div className="col s12 m6">
+          {/* THIS IS LEFT COLUMN */}
+          <p className="col s12 m10 offset-m2">
+            <News5 />
+            <hr></hr>
+          </p>
           <p className="col s12 m10 offset-m2">
             <News4 />
             <hr></hr>
           </p>
         </div>
+
         <div className="col s12 m6">
+          {/* THIS IS RIGHT COLUMN */}
           <p className="col s12 m10 offset-m1">
             <News3 />
             <hr></hr>
           </p>
-        </div>
-        <div className="col s12 m6">
           <p className="col s12 m10 offset-m1">
             <News2 />
             <hr></hr>
