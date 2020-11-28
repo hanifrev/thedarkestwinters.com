@@ -18,6 +18,11 @@ h1 {
   text-align: center;
 }
 
+.logonav {
+  /* display: flex; */
+  width: 146px;
+}
+
 .news-title {
   text-align: center;
   display: block;
@@ -70,3 +75,9 @@ h1 {
     font-size: 10px;
   }
 }
+
+/* @media (max-width: 650px) {
+  .logonav {
+    width: 100%;
+  }
+} */

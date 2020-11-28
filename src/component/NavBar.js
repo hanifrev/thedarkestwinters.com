@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import M from 'materialize-css/dist/js/materialize.min.js'
+import logo from '../assets/logo/tdwlogo.png'
 // import navS from '../hooks/nav'
 
 const NavBar = () => {
@@ -13,7 +14,7 @@ const NavBar = () => {
       <nav className="#37474f blue-grey darken-3">
         <div className="nav-wrapper">
           <Link to={'/'} className="brand-logo">
-            THE DARKEST WINTERS
+            <img className="logonav" src={logo} alt={'logo'} />
           </Link>
           <Link className="sidenav-trigger" data-target="mobile-links">
             <i className="material-icons">menu</i>
