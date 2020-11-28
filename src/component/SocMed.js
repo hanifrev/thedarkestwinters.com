@@ -14,7 +14,7 @@ const SocMed = () => {
     <IconContext.Provider
       value={{ color: '#ffffff', className: 'global-class-name', size: '2em' }}
     >
-      <div>
+      <div className="socmed">
         <Link to={'//facebook.com/thedarkestwinters/'} target="_blank">
           <FaFacebookSquare />
         </Link>

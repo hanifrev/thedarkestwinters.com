@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 body {
   /* background-color: aliceblue; */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.685)),
     url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/db592fe1-817f-46bf-8d42-cb92bc795d72/ddzwyiz-09863b2b-15c1-41df-aa04-d37d0b11a969.jpg/v1/fill/w_1280,h_960,q_75,strp/bleak_forest_by_voidvanderer_ddzwyiz-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD05NjAiLCJwYXRoIjoiXC9mXC9kYjU5MmZlMS04MTdmLTQ2YmYtOGQ0Mi1jYjkyYmM3OTVkNzJcL2Rkend5aXotMDk4NjNiMmItMTVjMS00MWRmLWFhMDQtZDM3ZDBiMTFhOTY5LmpwZyIsIndpZHRoIjoiPD0xMjgwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.5klie9ikRYeNlEhF1gi3nJWWmqyXmfQgthKUcQy3GY0);
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -25,7 +25,7 @@ h1 {
 
 .news1-img {
   display: block;
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
   border: 1px solid #bbb8b8a1;
 }
@@ -38,6 +38,7 @@ h1 {
 
 .bandcamp-title {
   text-align: center;
+  margin: 20px 0;
 }
 .embed-responsive-item {
   padding: 0 5%;
@@ -59,6 +60,9 @@ h1 {
 
 .global-class-name {
   margin: 8px 11px;
+}
+.socmed {
+  text-align: center;
 }
 
 @media (max-width: 450px) {

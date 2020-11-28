@@ -18,6 +18,9 @@ const SideBar = () => {
       </p>
 
       <hr></hr>
+
+      <h6 className="bandcamp-title">FOLLOW US</h6>
+
       <SocMed />
     </div>
   )

@@ -5,7 +5,6 @@ import NavBar from './component/NavBar'
 import MainContent from './component/MainContent'
 import About from './component/pages/About'
 import Footer from './component/Footer'
-// import SideBar from './component/SideBar'
 
 const App = () => {
   return (
