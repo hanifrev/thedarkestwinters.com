@@ -20,7 +20,7 @@ const NavBar = () => {
             <i className="material-icons">menu</i>
           </Link>
 
-          <ul className="right hide-on-med-and-down">
+          <ul className="right hide-on-med-and-down ">
             <li>
               <Link to={'/'}>HOME</Link>
             </li>
@@ -33,16 +33,16 @@ const NavBar = () => {
               </Link>
             </li>
             <li>
-              <Link to={'/'}>GALLERY</Link>
+              <Link to={'/NotFound'}>GALLERY</Link>
             </li>
             <li>
-              <Link to={'/'}>OTHER</Link>
+              <Link to={'/NotFound'}>OTHER</Link>
             </li>
           </ul>
         </div>
       </nav>
 
-      <ul className="sidenav" id="mobile-links">
+      <ul className="sidenav sidenav-close sdnv" id="mobile-links">
         <li>
           <Link to={'/'}>HOME</Link>
         </li>
@@ -55,10 +55,10 @@ const NavBar = () => {
           </Link>
         </li>
         <li>
-          <Link to={'/'}>GALLERY</Link>
+          <Link to={'/NotFound'}>GALLERY</Link>
         </li>
         <li>
-          <Link to={'/'}>OTHER</Link>
+          <Link to={'/NotFound'}>OTHER</Link>
         </li>
       </ul>
     </div>

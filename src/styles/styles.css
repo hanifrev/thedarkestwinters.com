@@ -70,6 +70,11 @@ h1 {
   text-align: center;
 }
 
+.sdnv {
+  width: 50% !important;
+  background-color: #afb9bd !important;
+}
+
 @media (max-width: 450px) {
   .page-footer {
     font-size: 10px;

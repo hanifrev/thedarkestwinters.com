@@ -6,7 +6,8 @@ module.exports = {
 
   output: {
     path: path.resolve(__dirname, '/dist'),
-    filename: 'bundle.js'
+    filename: 'bundle.js',
+    publicPath: '/'
   },
   resolve: {
     modules: [path.join(__dirname, 'src'), 'node_modules'],
@@ -17,7 +18,8 @@ module.exports = {
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
     compress: true,
-    port: 8080
+    port: 8080,
+    historyApiFallback: true
   },
   module: {
     rules: [
@@ -51,7 +53,7 @@ module.exports = {
       //   ]
       // },
       {
-        test: /\.(png|svg|jpg|jpeg|gif|tiff)$/,
+        test: /\.(png|svg|jpg|jpeg|gif|tiff|ico)$/,
         use: ['file-loader']
       }
     ]

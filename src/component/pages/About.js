@@ -1,9 +1,11 @@
 import React from 'react'
+import mainbgpic from '../../assets/mainbgpic.jpg'
 
 const About = () => {
   return (
     <div className="row">
       <h4 className="about-title">About The Band</h4>
+      <img className="news1-img" src={mainbgpic} alt={'bandphoto'} />
       <p className="col s12 m10 offset-m1">
         The Darkest Winters is a black metal band based in Kediri, East Java, Indonesia.
         The Darkest Winters was born in 2019, previously, The Darkest Winters was Hongat`s
